@@ -10,6 +10,11 @@ It helps identify congestion events or transaction surges, enabling automated re
 
 Configure Dev Environment
 
+=======
+---
+
+Configure Dev Environment
+
 # Install Foundry (for compiling and deploying Solidity contracts)
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
