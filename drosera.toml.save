@@ -1,0 +1,9 @@
+ethereum_rpc = "https://ethereum-hoodi-rpc.publicnode.com"           # Final working RPC
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+[traps.gas_spike_trap]
+# The path must EXACTLY match the compiled artifact filename
+path = "out/GasSpikeTrap.sol/GasSpikeTra
