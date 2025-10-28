@@ -1,6 +1,3 @@
----
-
-````markdown
 # ⚡ GasSpikeTrap
 
 ## 🧠 Overview
