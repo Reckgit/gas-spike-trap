@@ -5,19 +5,14 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps]
 
-[traps.gas_spike_trap]
-# Must match the compiled artifact path produced by Foundry
+[traps.gas-spike-trap]
+address = "0x98bc34449C07bE4A290D3703D672867512aD20B7"
 path = "out/GasSpikeTrap.sol/GasSpikeTrap.json"
-# The deployed response contract
 response_contract = "0x1c7065eEe97182801e1C5653eFf75d4F2034A0C8"
-# Function to call on spike detection
-response_function = "handleGasSpikeAlert(string,uint256,uint256)"
-# Trap execution parameters
+response_function = "handleGasSpikeAlert(uint256,uint256)"
 cooldown_period_blocks = 33
 min_number_of_operators = 1
-max_number_of_operators = 3
-block_sample_size = 20       # Matches the 20-block comparison window
-# Privacy and access control
+max_number_of_operators = 2
+block_sample_size = 10
 private_trap = true
-whitelist = ["0x006b4F0135e8276d1cB60B7A0C696adbda01B1F3"]
-address = "0xeec4ffF298A29F7eBAcbBeE47e0Dc7604bD69A64"
+whitelist = ["0xFC78272da0FE35AE21F4d4fa376829826adD2B79"]

@@ -119,7 +119,7 @@ cast code 0xeec4ffF298A29F7eBAcbBeE47e0Dc7604bD69A64 \
 | Parameter            | Value                                        |
 | -------------------- | -------------------------------------------- |
 | **Network**          | Hoodi Testnet (560048)                       |
-| **Trap Address**     | `0xeec4ffF298A29F7eBAcbBeE47e0Dc7604bD69A64` |
+| **Trap Address**     | `0x98bc34449C07bE4A290D3703D672867512aD20B7` |
 | **Response Address** | `0x1c7065eEe97182801e1C5653eFf75d4F2034A0C8` |
 
 ---
@@ -137,6 +137,7 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 [traps]
 
 [traps.gasspiketr]
+address = "0x98bc34449C07bE4A290D3703D672867512aD20B7"
 path = "out/GasSpikeTrap.sol/GasSpikeTrap.json"
 response_contract = "0x1c7065eEe97182801e1C5653eFf75d4F2034A0C8"
 response_function = "handleGasSpikeAlert(uint256,uint256)"
@@ -186,5 +187,4 @@ By detecting and reacting to network-wide gas spikes in real time, it ensures th
 
 ### 🧾 License
 
-MIT © 2025 GasSpikeTrap Contributors
-
+MIT © 2025 GasSpikeTrap Contributors | Discord: reckmondela01 | Twitter: ReckmonDela01
